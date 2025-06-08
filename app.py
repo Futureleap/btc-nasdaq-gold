@@ -4,8 +4,9 @@ import pandas as pd
 import numpy as np
 import altair as alt
 from sklearn.preprocessing import MinMaxScaler
-from keras.models import Sequential
-from keras.layers import Dense, LSTM
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, LSTM
+
 
 st.set_page_config(layout="wide")
 st.title("📈 BTC & Nasdaq 100 Swing Trading Agent")
