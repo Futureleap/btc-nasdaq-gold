@@ -27,3 +27,12 @@ try:
 except Exception as e:
     st.error(f"❌ Greška pri učitavanju podataka: {e}")
 
+# === BACKTEST ===
+initial_capital = 10000
+result = backtest_strategy(data.copy(), initial_capital)
+
+# Prikaz rezultata
+st.subheader("📉 Rezultati Backtesta")
+st.write(f"Ukupni broj trejdova: {result['total_trades']}")
+st.write(f"Završni balans: ${result['final_balance']:.2f}")
+st.write(f"Ukupni prinos: {result['return_percent']:.2f}%")
