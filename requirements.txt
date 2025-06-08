@@ -1,7 +1,5 @@
 streamlit
 yfinance
 pandas
-scikit-learn
+ta
 matplotlib
-# tensorflow is too heavy; comment it out for now
-# tensorflow-cpu==2.12.0
