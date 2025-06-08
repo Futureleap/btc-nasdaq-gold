@@ -1,5 +1,8 @@
 streamlit
 yfinance
 pandas
-ta
-matplotlib
+numpy
+scikit-learn
+keras
+tensorflow
+altair
