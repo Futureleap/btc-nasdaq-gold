@@ -3,4 +3,5 @@ yfinance
 pandas
 scikit-learn
 matplotlib
-tensorflow-cpu==2.12.0
+# tensorflow is too heavy; comment it out for now
+# tensorflow-cpu==2.12.0
